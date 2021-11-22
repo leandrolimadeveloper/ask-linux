@@ -1,0 +1,27 @@
+{
+  "name": "ask-linux",
+  "version": "1.0.0",
+  "description": "Ask anything about Linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrolimadeveloper/ask-linux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrolimadeveloper/ask-linux/issues"
+  },
+  "homepage": "https://github.com/leandrolimadeveloper/ask-linux#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
