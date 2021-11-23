@@ -23,7 +23,9 @@ app.use(express.json())
 // Rotas
 app.get('/', (req, res) => {
     Pergunta.findAll({raw: true}).then(perguntas => {
-        res.render('index')    
+        res.render('index', {
+            perguntas: perguntas
+        })    
     })
     
 })
