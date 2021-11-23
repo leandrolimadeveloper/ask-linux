@@ -1,7 +1,8 @@
-body {
-    background-color: rgb(106, 106, 110);
+.btn-estilizado {
+    background-color: #5271FF;
+    color: white;
 }
 
-h1 {
-    color: rgb(233, 233, 240);
+nav {
+    background-color: #5271FF;
 }
