@@ -1,5 +1,17 @@
 const express = require('express')
 const app = express()
+const connection = require('./database/database')
+const Pergunta = require('./database/Pergunta')
+
+// Database
+connection
+    .authenticate()
+    .then(() => {
+        console.log('Conexão feita com o BD')
+    })
+    .catch((msgErro) => {
+        console.log(msgErro)
+    })
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
@@ -20,7 +32,12 @@ app.get('/pergunta', (req, res) => {
 app.post('/salvarpergunta', (req, res) => {
     let titulo = req.body.titulo
     let descricao = req.body.descricao
-    res.send('Formulário recebido<br>Título: ' + titulo + '<br>Descrição: ' + descricao)
+    Pergunta.create({
+        titulo: titulo,
+        descricao: descricao
+    }).then(() => {
+        res.redirect('/')
+    })
 })
 
 app.listen(3000, 'localhost', () => {
