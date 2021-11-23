@@ -22,7 +22,10 @@ app.use(express.json())
 
 // Rotas
 app.get('/', (req, res) => {
-    res.render('index')
+    Pergunta.findAll({raw: true}).then(perguntas => {
+        res.render('index')    
+    })
+    
 })
 
 app.get('/pergunta', (req, res) => {
