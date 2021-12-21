@@ -2,8 +2,7 @@
     <img alt="Ask Linux" src="https://user-images.githubusercontent.com/76854209/146804257-72f99099-a6d2-4bd7-959c-581a47e4b069.png" />
     <br>
     Ask Linux
-    <p align="center" style="color: #5271FF;">Ask anything about Linux</p>
-
+    <p align="center">Ask anything about Linux</p>
 </h1>
 
 <p align="center">
@@ -18,6 +17,10 @@
 
 ## About
 <p>A website like Ask.fm, where is possible to make and answer questions anonymously.</p>
+
+![1](https://user-images.githubusercontent.com/76854209/146985203-632bc859-d661-411f-a248-1df70e856e87.png)
+![2](https://user-images.githubusercontent.com/76854209/146985345-c0cb7e82-1a70-4197-8fb3-3e567d67576c.png)
+![3](https://user-images.githubusercontent.com/76854209/146985518-188f263d-c105-4e8a-86ea-faf8ad6e690e.png)
 
 <hr>
 
